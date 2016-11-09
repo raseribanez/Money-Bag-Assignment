@@ -137,7 +137,7 @@ class MainApplication(tk.Frame):
             if actual_weight_6 > 160:
                 cvt_to.set("You need to remove %s Fifty Pence coins " % coins_removed_6) 
                 print"It is", difference_12, "grams overweight"
-                print"============================================"
+                print"=======Ben Woodfield Wrote this code========"
             if actual_weight_6 < 160:
                 cvt_to.set("You need to add %s Fifty Pence coins" % coins_added_6)
                 print"It is ", difference_13, "grams underweight"
@@ -173,7 +173,7 @@ class MainApplication(tk.Frame):
             if actual_weight_8 > 120:
                 cvt_to.set("You need to remove %s Two Pound coins" % coins_removed_8)
                 print"It is ", difference_16, "grams overweight"
-                print"============================================"
+                print"=======Ben Woodfield Wrote this code========"
             if actual_weight_8 < 120:
                 cvt_to.set("You need to add %s Two pound coins" % coins_added_8)
                 print"It is ", difference_17, "grams overweight"
