@@ -1,6 +1,7 @@
 #!usr/env/bin/python
 # Moneybag Weight Checker program
 # Written in Python 2.7
+# Thinter GUI version - STILL NEEDS TOTALS AT END for coins added and coins removed total values
 
 # Import the required modules
 import os
@@ -52,6 +53,7 @@ class MainApplication(tk.Frame):
                 print"============================================"
             add_click()
            
+         # Dont know why uploading added this strange artifact into my code
         # Function 2 to calculate and display the two-pence coin moneybag difference
         def two_pence_bag():
             print("Your moneybag should weigh 356g")
