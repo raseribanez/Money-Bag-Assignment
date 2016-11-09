@@ -1,3 +1,4 @@
+# Ben Woodfield
 # Money Bag weight checker program
 # Written and runs in Python 2.7
 #!usr/bin/env/python
@@ -101,7 +102,7 @@ def main():
         if bag_weight > 160:
             print("You need to remove %s Fifty Pence coins " % coins_removed_6) 
             print"It is", difference_12, "grams overweight"
-            print"============================================"
+            print"======BenWoodfield wrote this==============="
         if bag_weight < 160:
             print("You need to add %s Fifty Pence coins" % coins_added_6)
             print"It is ", difference_13, "grams underweight"
